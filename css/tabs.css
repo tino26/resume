@@ -1,0 +1,35 @@
+.navbar{
+    float: none;
+    padding-left: 3%;
+    display: block;
+    overflow: hidden;
+    background-color: rgb(116, 26, 201);
+}
+
+.navbar button{
+    outline: none;
+    border: none;
+    float:left;
+    background-color: inherit;
+    color: rgb(182, 179, 174);
+    margin-top: 19px;
+    margin-bottom: 18px;
+    margin-left: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+.navbar button:hover{
+    color: #f3ecec;
+}
+
+.navbar img{
+    float: left;
+    margin-top: 19px;
+}
+
+.viewWindow{
+    border: none;
+    background-color: rgb(24,26,27);
+}

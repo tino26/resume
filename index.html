@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Alex-Valentino</title>
+  <meta name="description" content="CV">
+  <meta name="author" content="Alex-Valentino Georgiev">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/tabs.css">
+
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png">
+</head>
+<body style="overflow: hidden;" onload="sizeView()">
+  <div id="tabBar" class="navbar">
+    <img class="tabImage" src="images/favicon-32x32.png" style="width: 40px; height: 40px;">
+    <button id="home" style="padding-left: 1%" onclick="openPage('home.html'), sizeView()">Home</button>
+    <button id="about" onclick="openPage('about.html'), sizeView()">About</button>
+    <button id="works" onclick="openPage('works.html'), sizeView()">Works</button>
+    <button id="resume" onclick="openPage('resume.html'), sizeView()">resume</button>
+    <button id="contact" onclick="openPage('home.html'), sizeView()">contact</button>
+  </div>
+  
+  <iframe class="viewWindow" src="home.html" id="dispFrame" name="frameD" title="FrameDisplay"></iframe>
+
+  <!--SCRIPTS-->
+  <script src="main.js"></script>
+</body>
+</html>

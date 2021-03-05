@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Resume</title>
+  <meta name="description" content="CV">
+  <meta name="author" content="Alex-Valentino Georgiev">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/tabs.css">
+  <link rel="stylesheet" href="css/pageStyle.css">
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png">
+
+</head>
+<body>
+    <div class="six columns" style="margin-left: 25.7%;">
+      <div style="text-align: center; margin-top: 40px;">
+          <h3>RESUME</h3>
+      </div>
+      <div class="scrollTabBar">
+        <ul>
+          <li><a calss="smoothScroll" href="#skills">skills</a></li>
+          <li><a calss="smoothScroll" href="#education">education</a></li>
+          <li><a calss="smoothScroll" href="#experience">experience</a></li>
+          <li><a calss="smoothScroll" href="#awards">awards</a></li>
+        </ul>
+      </div>
+      <div style="margin-block: -70px;" class="skillList" id="skills">
+        <div style="padding-block: 60px;">
+          <h4>SKILLS</h4>
+          <ul>
+            <li>Languages</li>
+              <ol>
+                <li>Bulgarian-(native)</li>
+                <li>English-Level C1</li>
+                <li>German-Level A1</li>
+                <li>Russian-Level A1</li>
+              </ol>
+            <li>Programming skills</li>
+              <ol>
+                <li>Web Development</li>
+                <p>I am proficient with JavaScript and HTML and have some experience in making web pages. 
+                <br>I can work on both frontend and backend.</p>
+                <li>Software Development</li>
+                  <p>I have worked on several Android mobile applications with Java. I am also proficient in algorithmic programming with C# and am well versed in making console applications.</p>
+                <li>Game Development</li>
+                  <p>I have experience in making web-based games with JS and HTML.</p>
+                <li>Tools and Languages</li>
+                  <p>I am proficient with JavaScript HTML and CSS and I am also experienced with C# and Java.
+                  <br>The programming environments I can work with are VisualStudio, VisualStudioCode, AndroidStudio, and more.</p>
+              </ol>
+          </ul>
+        </div>
+      </div>
+        <div class="skillList" id="education">
+          <div style="padding-block: 60px;">
+            <h4>Education</h4>
+            <ul>
+              <li>Primary education and middle school</li>
+              <p>31 СУЧЕМ Иван Вазов 2012-2019</p>
+              <li>High school</li>
+              <p>SoftUni Svetlina 2019-2024</p>
+            </ul>
+          </div>
+        </div>
+        <div class="skillList" id="experience">
+          <div style="padding-block: 60px;">
+            <h4>Experience</h4>
+          </div>
+          <div class="skillList" id="awards">
+            <div style="padding-block-start: 60px; padding-bottom: 10px;">
+              <h4>Awards and certificates</h4>
+            </div>
+            <div class="awardImages">
+              <img id="petImg" onclick="zoomInImage('petImg')" class="awardImg" style="width:45%; height: 45%;" src="images/cerificates/petOxford.jpg">
+              <p>First(FCE) Certificate</p>
+              <img id="fceImg" onclick="zoomInImage('fceImg')" class="awardImg" style="width:45%; height: 45%;" src="images/cerificates/fceOxford.jpg">
+              <div id="imageModal" class="modal">
+                <img class="modalImage" id="zoomImg">
+                <span name="closeButton" class="close" onclick="document.getElementById('imageModal').style.display='none'">&times;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- scripts -->
+    <script src="main.js"></script>
+</body>

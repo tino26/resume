@@ -1,0 +1,109 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.skillList{
+    color: rgb(201,196,189);
+}
+
+.skillList ul li{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.skillList ol li{
+    font-weight:lighter;
+    font-size: 16px;
+}
+
+.skillList p{
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+/*scroll Tab Bar*/
+.scrollTabBar{
+    position: sticky;
+    top: 0px;
+    display: block;
+    background-color: rgb(24,26,27);
+    text-align: center;
+    z-index: 99;
+}
+
+.scrollTabBar ul li{
+    display: inline-block;
+    padding-top: 15px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.scrollTabBar a:link, :visited{
+    color: rgb(201,196,189);
+    text-decoration: none;
+    text-transform:uppercase;
+}
+
+.scrollTabBar a:hover{
+    color: orange;
+}
+
+.awardImages{
+    display:block;
+    background-color: purple;
+    width: 200%;
+}
+
+.awardImages img{
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+.awardImages img:hover{
+    opacity: 0.8;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    padding-top: 15px;
+    padding-bottom: 10%;
+    margin-left: 0;
+    left: 0;    
+    top: 0;
+    width:  fit-content;
+    height: fit-content;
+    overflow: auto;
+    background-blend-mode: soft-light;
+    background-color: rgba(24,26,27,0.8); 
+  }
+
+.modalImage{
+    margin: auto;
+    display: block;
+    left: 0;
+    width: 29%;
+}
+
+.close{
+    position: absolute;
+    padding-bottom: 0;
+    padding-top: 0;
+    top: 0;
+    right: 80px;
+    width:fit-content;
+    height: fit-content;
+    color: rgb(182, 179, 174);
+    font-size: 90px;
+    font-weight:normal;
+}
+
+.close:hover{
+    cursor: pointer;
+    color: #f3ecec;
+}
