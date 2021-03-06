@@ -51,16 +51,22 @@ html{
 
 .awardImages{
     display:block;
-    background-color: purple;
-    width: 200%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.awardImages figure{
+    display: inline-block;
 }
 
 .awardImages img{
+    display:inline-block;
     border: none;
     cursor: pointer;
     transition: 0.3s;
-    padding-left: 30px;
+    padding-left: 2.5%;
     padding-bottom: 40px;
+    width: 30%;
 }
 
 .awardImages img:hover{
@@ -87,7 +93,7 @@ html{
     margin: auto;
     display: block;
     left: 0;
-    width: 29%;
+    width: 30%;
 }
 
 .close{

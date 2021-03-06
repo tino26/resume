@@ -80,17 +80,20 @@
             <div style="padding-block-start: 60px; padding-bottom: 10px;">
               <h4>Awards and certificates</h4>
             </div>
-            <div class="awardImages">
-              <img id="petImg" onclick="zoomInImage('petImg')" class="awardImg" style="width:45%; height: 45%;" src="images/cerificates/petOxford.jpg">
-              <p>First(FCE) Certificate</p>
-              <img id="fceImg" onclick="zoomInImage('fceImg')" class="awardImg" style="width:45%; height: 45%;" src="images/cerificates/fceOxford.jpg">
-              <div id="imageModal" class="modal">
-                <img class="modalImage" id="zoomImg">
-                <span name="closeButton" class="close" onclick="document.getElementById('imageModal').style.display='none'">&times;</span>
-              </div>
+            <div id="imageModal" class="modal">
+              <img class="modalImage" id="zoomImg">
+              <span name="closeButton" class="close" onclick="document.getElementById('imageModal').style.display='none'">&times;</span>
             </div>
           </div>
         </div>
+    </div>
+    <div class="awardImages">
+      <img id="petImg" onclick="zoomInImage('petImg')" src="images/cerificates/petOxford.jpg">
+      <img id="fceImg" onclick="zoomInImage('fceImg')" src="images/cerificates/fceOxford.jpg">
+      <img id="britA03" onclick="zoomInImage('britA03')" src="images/cerificates/a0.3.jpg">
+      <img id="britA11" onclick="zoomInImage('britA11')" src="images/cerificates/a1.1.jpg">
+      <img id="britA22" onclick="zoomInImage('britA22')" src="images/cerificates/a2.2.jpg">
+      <img id="britB12" onclick="zoomInImage('britB12')" src="images/cerificates/b1.2.jpg">
     </div>
     <!-- scripts -->
     <script src="main.js"></script>
